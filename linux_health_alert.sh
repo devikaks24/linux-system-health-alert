@@ -5,7 +5,7 @@
 # Author: Devika K S
 # ===============================
 
-ALERT_EMAIL="devikaks3339@gmail.com"
+ALERT_EMAIL="devikaks*******@gmail.com"
 
 LOG_DIR=~/Documents/linux-system-health-alert/logs/$(date +%F)
 mkdir -p $LOG_DIR
@@ -68,7 +68,7 @@ fi
 
 # Send alert only if required
 if [ "$ALERT" = true ]; then
-  echo -e "$MESSAGE" | mail -s "🚨 System Health Alert on $HOSTNAME" devikaks3339@gmail.com
+  echo -e "$MESSAGE" | mail -s "🚨 System Health Alert on $HOSTNAME" devikaks******@gmail.com
 else
   echo "System normal at $DATE" >> ~/Documents/linux-system-health-alert/logs/cron.log
 fi
