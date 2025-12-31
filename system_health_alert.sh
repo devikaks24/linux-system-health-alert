@@ -3,7 +3,7 @@
 # ====== Project: Linux System Health Alert ======
 
 # Email where alerts will be sent
-EMAIL="devikaks3339@gmail.com"
+EMAIL="devikaks******@gmail.com"
 
 # Alert thresholds (1 = will always trigger for testing)
 CPU_THRESHOLD=1
